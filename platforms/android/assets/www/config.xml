@@ -9,12 +9,4 @@
     </author>
     <access origin="*" />    
     <preference name="webviewbounce" value="true" />
-    <content src="index.html" />
-    
-    <!-- Android settings -->
-    <content src="index.html" />
-    <preference name="fullscreen" value="false" />
-    <plugin name="Geolocation" value="org.apache.cordova.GeoBroker" />
-    <plugin name="File" value="org.apache.cordova.FileUtils" />
-	<plugin name="FileTransfer" value="org.apache.cordova.FileTransfer" />
 </widget>
