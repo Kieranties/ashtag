@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="org.iasess.ashtag" version="2.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>Ashtag</name>
+    <description>
+        AshTag aims to help identify and report incidences of the Ash dieback fungus, or Chalara fraxinus.
+    </description>
+    <author email="app@ashtag.org" href="http://cordova.io">
+        Ashtag
+    </author>
+    <access origin="*" />    
+    <preference name="webviewbounce" value="true" />
+    <content src="index.html" />
+    
+    <!-- Android settings -->
+    <content src="index.html" />
+    <preference name="fullscreen" value="false" />
+    <plugin name="Geolocation" value="org.apache.cordova.GeoBroker" />
+    <plugin name="File" value="org.apache.cordova.FileUtils" />
+	<plugin name="FileTransfer" value="org.apache.cordova.FileTransfer" />
+</widget>

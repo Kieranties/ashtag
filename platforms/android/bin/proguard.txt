@@ -1,0 +1,3 @@
+# view AndroidManifest.xml #generated:10
+-keep class org.iasess.ashtag.Ashtag { <init>(...); }
+
